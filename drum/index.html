@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Drum Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/multiple.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="keys">
+
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">bongo1</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">bongo2</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">drum</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">tom1</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">tom2</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">shh</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">grito</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">bend</span>
+        </div>
+
+
+    </div>
+
+
+    <audio src="assets/mp3/bongo1.mp3" data-key="65"></audio>
+    <audio src="assets/mp3/bongo2.mp3" data-key="83"></audio>
+    <audio src="assets/mp3/drum.mp3" data-key="68"></audio>
+    <audio src="assets/mp3/snare.mp3" data-key="70"></audio>
+    <audio src="assets/mp3/tom1.mp3" data-key="71"></audio>
+    <audio src="assets/mp3/tom2.mp3" data-key="72"></audio>
+    <audio src="assets/mp3/shh.mp3" data-key="74"></audio>
+    <audio src="assets/mp3/grito.mp3" data-key="75"></audio>
+    <audio src="assets/mp3/bend.mp3" data-key="76"></audio>
+
+   <p>Drum Kit made with Vanilla.JS</p>
+   
+    <script src="assets/js/multiple.js"></script>
+    <script src="assets/js/main.js"></script>
+   
+</body>
+
+</html>
